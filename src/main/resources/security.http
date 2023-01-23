@@ -1,0 +1,17 @@
+###
+POST http://localhost:443/generatecode
+Content-Type: application/json
+
+{
+  "userName":"09044090242"
+
+}
+
+###
+POST http://localhost:443/authenticate
+Content-Type: application/json
+
+{
+  "username":"09044090242",
+  "activitycode":"11111"
+}
